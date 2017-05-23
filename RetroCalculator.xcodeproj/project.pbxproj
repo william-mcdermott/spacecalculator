@@ -12,6 +12,9 @@
 		2791FABF1EC8D43A0036ABD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2791FABD1EC8D43A0036ABD1 /* Main.storyboard */; };
 		2791FAC11EC8D43A0036ABD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2791FAC01EC8D43A0036ABD1 /* Assets.xcassets */; };
 		2791FAC41EC8D43A0036ABD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2791FAC21EC8D43A0036ABD1 /* LaunchScreen.storyboard */; };
+		2791FACC1EC8EF060036ABD1 /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2791FACB1EC8EF060036ABD1 /* Minecrafter.Alt.ttf */; };
+		2791FACE1EC8EFFD0036ABD1 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2791FACD1EC8EFFD0036ABD1 /* Minecrafter.Reg.ttf */; };
+		2791FAD01EC8F0D20036ABD1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2791FACF1EC8F0D20036ABD1 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2791FAC01EC8D43A0036ABD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2791FAC31EC8D43A0036ABD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2791FAC51EC8D43A0036ABD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2791FACB1EC8EF060036ABD1 /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
+		2791FACD1EC8EFFD0036ABD1 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		2791FACF1EC8F0D20036ABD1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		2791FAB81EC8D43A0036ABD1 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				2791FACB1EC8EF060036ABD1 /* Minecrafter.Alt.ttf */,
+				2791FACD1EC8EFFD0036ABD1 /* Minecrafter.Reg.ttf */,
+				2791FACF1EC8F0D20036ABD1 /* btn.wav */,
 				2791FAB91EC8D43A0036ABD1 /* AppDelegate.swift */,
 				2791FABB1EC8D43A0036ABD1 /* ViewController.swift */,
 				2791FABD1EC8D43A0036ABD1 /* Main.storyboard */,
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					2791FAB51EC8D43A0036ABD1 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XST28KKYMD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +135,10 @@
 			files = (
 				2791FAC41EC8D43A0036ABD1 /* LaunchScreen.storyboard in Resources */,
 				2791FAC11EC8D43A0036ABD1 /* Assets.xcassets in Resources */,
+				2791FACC1EC8EF060036ABD1 /* Minecrafter.Alt.ttf in Resources */,
+				2791FAD01EC8F0D20036ABD1 /* btn.wav in Resources */,
 				2791FABF1EC8D43A0036ABD1 /* Main.storyboard in Resources */,
+				2791FACE1EC8EFFD0036ABD1 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XST28KKYMD;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = logo.RetroCalculator;
@@ -274,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XST28KKYMD;
 				INFOPLIST_FILE = RetroCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = logo.RetroCalculator;
@@ -301,6 +316,7 @@
 				2791FACA1EC8D43A0036ABD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
